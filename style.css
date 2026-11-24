@@ -47,9 +47,17 @@ ul {
 li::marker, li h3 {
     display: inline-block;
 }
-#programming-projects {
+#languages {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#languages, #programming-projects {
     font-family: DotGothic16, sans-serif;
     font-size: 0.9rem;
+}
+#languages li {
+    margin-left: 2rem;
 }
 #artworks img {
     height: 300px;
